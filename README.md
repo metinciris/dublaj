@@ -61,11 +61,11 @@ python -m whisper "english.mp3" --model large --language en --task transcribe
 
 Bu işlem bitince klasörde otomatik olarak şunlar oluşacak:
 
-uscap.srt → ✔️ İngilizce altyazı
+english.srt → ✔️ İngilizce altyazı
 
-uscap.txt → metin dosyası
+english.txt → metin dosyası
 
-uscap.vtt → web altyazısı
+english.vtt → web altyazısı
 
 ---
 
