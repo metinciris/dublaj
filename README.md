@@ -53,7 +53,19 @@ Bu komut, aynı klasöre yaklaşık şu isimde bir dosya üretir:
 input_en.srt
 ```
 
-Bu dosya, zaman damgalarıyla birlikte **İngilizce altyazıları** içerir.
+### Alternatif altyazı oluşturma
+```bash
+python -m whisper "english.mp3" --model large --language en --task transcribe
+```
+⚠️ Bu komut %100 çalışır, çünkü whisper komutunu PATH'e eklemeye gerek kalmaz.
+
+Bu işlem bitince klasörde otomatik olarak şunlar oluşacak:
+
+uscap.srt → ✔️ İngilizce altyazı
+
+uscap.txt → metin dosyası
+
+uscap.vtt → web altyazısı
 
 ---
 
